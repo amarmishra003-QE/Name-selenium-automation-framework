@@ -1,5 +1,8 @@
 # Selenium Automation Framework - Amar Mishra
 
+## GitHub Profile
+https://github.com/amarmishra003-QE
+
 ## Overview
 This project demonstrates UI automation using Selenium WebDriver with Java.
 It includes basic test scenarios for validating web application behavior.

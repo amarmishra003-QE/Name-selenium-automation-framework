@@ -28,6 +28,11 @@ It includes basic test scenarios for validating web application behavior.
 - Data-driven testing
 - CI/CD integration using Jenkins
 
+## Framework Components
+- TestNG for test execution
+- Config file for environment setup
+- Selenium WebDriver for UI automation
+
 ## Author
 Amar Mishra
 amar301091@yahoo.com

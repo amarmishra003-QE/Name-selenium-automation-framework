@@ -33,6 +33,13 @@ It includes basic test scenarios for validating web application behavior.
 - Config file for environment setup
 - Selenium WebDriver for UI automation
 
+## Features
+- Page Object Model (POM)
+- Config-driven execution
+- Maven build integration
+- TestNG execution suite
+- Screenshot capture on failure
+
 ## Author
 Amar Mishra
 amar301091@yahoo.com

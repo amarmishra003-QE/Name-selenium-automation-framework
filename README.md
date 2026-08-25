@@ -19,3 +19,9 @@ An enterprise-grade, scalable Test Automation Framework built with **Selenium We
 src/
  ├── main/java/pages/       # Page Object classes with Fluent Pattern
  └── test/java/tests/       # Test execution scripts (TestNG)
+
+How to Run Tests
+​Clone the repository:
+git clone https://github.com/amarmishra003-QE/Name-selenium-automation-framework.git
+​Execute tests via Maven:
+mvn clean test

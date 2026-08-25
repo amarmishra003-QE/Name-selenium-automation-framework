@@ -11,7 +11,7 @@ public class LoginPage {
     private final WebDriver driver;
     private final WebDriverWait wait;
 
-    // Locators
+    // Locators encapsulated (private)
     private final By usernameField = By.id("username");
     private final By passwordField = By.id("password");
     private final By loginButton = By.id("login");
@@ -31,8 +31,7 @@ public class LoginPage {
         return this;
     }
 
-    public HomePage clickLogin() {
+    public void clickLogin() {
         wait.until(ExpectedConditions.elementToBeClickable(loginButton)).click();
-        return new HomePage(driver); // Returns next page object
     }
 }

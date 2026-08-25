@@ -1,45 +1,21 @@
-# Selenium Automation Framework - Amar Mishra
+# Selenium Java Automation Framework
 
-## GitHub Profile
-https://github.com/amarmishra003-QE
+An enterprise-grade, scalable Test Automation Framework built with **Selenium WebDriver**, **Java**, and **TestNG**, designed following the **Page Object Model (POM)** and **Fluent Design Pattern**.
 
-## Overview
-This project demonstrates UI automation using Selenium WebDriver with Java.
-It includes basic test scenarios for validating web application behavior.
-
-## Features
-- UI automation using Selenium
-- Page title validation
-- Element interaction
-- Scalable framework structure
+## Key Features
+* **Design Pattern:** Page Object Model (POM) with Fluent Interface for readable test scripts.
+* **Synchronization:** Explicit Waits implemented via `WebDriverWait` to eliminate flakiness.
+* **Encapsulation:** Locators kept strict private within Page classes.
+* **Build Tool:** Apache Maven for dependency management and execution.
 
 ## Tech Stack
-- Selenium WebDriver
-- Java
-- TestNG
+* **Language:** Java 17+
+* **Automation Library:** Selenium WebDriver (v4.x)
+* **Test Runner:** TestNG
+* **Build Management:** Maven
 
-## Test Scenarios
-- Launch application
-- Validate page title
-- Perform basic UI validation
-
-## Future Enhancements
-- Page Object Model (POM)
-- Data-driven testing
-- CI/CD integration using Jenkins
-
-## Framework Components
-- TestNG for test execution
-- Config file for environment setup
-- Selenium WebDriver for UI automation
-
-## Features
-- Page Object Model (POM)
-- Config-driven execution
-- Maven build integration
-- TestNG execution suite
-- Screenshot capture on failure
-
-## Author
-Amar Mishra
-amar301091@yahoo.com
+## Project Structure
+```text
+src/
+ ├── main/java/pages/       # Page Object classes with Fluent Pattern
+ └── test/java/tests/       # Test execution scripts (TestNG)
